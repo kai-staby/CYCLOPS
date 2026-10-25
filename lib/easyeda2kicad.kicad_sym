@@ -1606,7 +1606,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 0 25.4 0)
+			(at -17.272 27.686 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1616,7 +1616,7 @@
 			)
 		)
 		(property "Value" "TMC2209-LA-T"
-			(at 0 -22.86 0)
+			(at 15.24 27.686 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1626,7 +1626,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:QFN-28_L5.0-W5.0-P0.50-BL-EP"
-			(at 0 -25.4 0)
+			(at -1.016 -48.006 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1637,7 +1637,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C2150710.pdf"
-			(at 0 -27.94 0)
+			(at -1.016 -50.546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1659,7 +1659,7 @@
 			)
 		)
 		(property "Manufacturer" "ADI(亚德诺)/TRINAMIC"
-			(at 0 -30.48 0)
+			(at -1.016 -53.086 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1670,7 +1670,7 @@
 			)
 		)
 		(property "MPN" "TMC2209-LA-T"
-			(at 0 -33.02 0)
+			(at -1.016 -55.626 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1681,7 +1681,7 @@
 			)
 		)
 		(property "LCSC Part" "C2150710"
-			(at 0 -35.56 0)
+			(at -1.016 -58.166 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1704,8 +1704,8 @@
 		)
 		(symbol "TMC2209-LA-T_0_1"
 			(rectangle
-				(start -13.97 17.78)
-				(end 13.97 -20.32)
+				(start -17.78 26.67)
+				(end 17.78 -26.67)
 				(stroke
 					(width 0)
 					(type default)
@@ -1714,19 +1714,8 @@
 					(type background)
 				)
 			)
-			(circle
-				(center -12.7 16.51)
-				(radius 0.38)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(pin unspecified line
-				(at -16.51 15.24 0)
+				(at 20.32 11.43 180)
 				(length 2.54)
 				(name "OB2"
 					(effects
@@ -1744,7 +1733,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -16.51 12.7 0)
+				(at -20.32 11.43 0)
 				(length 2.54)
 				(name "ENN"
 					(effects
@@ -1762,7 +1751,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -16.51 10.16 0)
+				(at 0 -29.21 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1780,7 +1769,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -16.51 7.62 0)
+				(at -20.32 22.86 0)
 				(length 2.54)
 				(name "CPO"
 					(effects
@@ -1798,7 +1787,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -16.51 5.08 0)
+				(at -20.32 19.05 0)
 				(length 2.54)
 				(name "CPI"
 					(effects
@@ -1816,7 +1805,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -16.51 2.54 0)
+				(at 6.35 29.21 270)
 				(length 2.54)
 				(name "VCP"
 					(effects
@@ -1834,7 +1823,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -16.51 0 0)
+				(at -20.32 -15.24 0)
 				(length 2.54)
 				(name "SPREAD"
 					(effects
@@ -1852,7 +1841,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -16.51 -2.54 0)
+				(at 20.32 -16.51 180)
 				(length 2.54)
 				(name "5VOUT"
 					(effects
@@ -1870,7 +1859,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -16.51 -5.08 0)
+				(at -20.32 0 0)
 				(length 2.54)
 				(name "MS1_AD0"
 					(effects
@@ -1888,7 +1877,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -16.51 -7.62 0)
+				(at -20.32 -3.81 0)
 				(length 2.54)
 				(name "MS2_AD1"
 					(effects
@@ -1906,7 +1895,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -16.51 -10.16 0)
+				(at 20.32 -7.62 180)
 				(length 2.54)
 				(name "DIAG"
 					(effects
@@ -1924,7 +1913,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -16.51 -12.7 0)
+				(at 20.32 -3.81 180)
 				(length 2.54)
 				(name "INDEX"
 					(effects
@@ -1942,7 +1931,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -16.51 -15.24 0)
+				(at -20.32 7.62 0)
 				(length 2.54)
 				(name "CLK"
 					(effects
@@ -1960,7 +1949,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -16.51 -17.78 0)
+				(at -20.32 3.81 0)
 				(length 2.54)
 				(name "PDN_UART"
 					(effects
@@ -1978,7 +1967,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -17.78 180)
+				(at -20.32 -22.86 0)
 				(length 2.54)
 				(name "VCC_IO"
 					(effects
@@ -1996,7 +1985,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -15.24 180)
+				(at -20.32 -7.62 0)
 				(length 2.54)
 				(name "STEP"
 					(effects
@@ -2014,7 +2003,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -12.7 180)
+				(at -20.32 15.24 0)
 				(length 2.54)
 				(name "VREF"
 					(effects
@@ -2032,7 +2021,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -10.16 180)
+				(at -6.35 -29.21 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -2050,7 +2039,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -7.62 180)
+				(at -20.32 -11.43 0)
 				(length 2.54)
 				(name "DIR"
 					(effects
@@ -2068,7 +2057,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -5.08 180)
+				(at -20.32 -19.05 0)
 				(length 2.54)
 				(name "STDBY"
 					(effects
@@ -2086,7 +2075,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -2.54 180)
+				(at 20.32 22.86 180)
 				(length 2.54)
 				(name "OA2"
 					(effects
@@ -2104,7 +2093,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 0 180)
+				(at -6.35 29.21 270)
 				(length 2.54)
 				(name "VS"
 					(effects
@@ -2122,7 +2111,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 2.54 180)
+				(at 20.32 7.62 180)
 				(length 2.54)
 				(name "BRA"
 					(effects
@@ -2140,7 +2129,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 5.08 180)
+				(at 20.32 19.05 180)
 				(length 2.54)
 				(name "OA1"
 					(effects
@@ -2158,7 +2147,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 7.62 180)
+				(at 20.32 -20.32 180)
 				(length 2.54)
 				(name "UNUSED"
 					(effects
@@ -2176,7 +2165,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 10.16 180)
+				(at 20.32 15.24 180)
 				(length 2.54)
 				(name "OB1"
 					(effects
@@ -2194,7 +2183,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 12.7 180)
+				(at 20.32 3.81 180)
 				(length 2.54)
 				(name "BRB"
 					(effects
@@ -2212,7 +2201,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 15.24 180)
+				(at 0 29.21 270)
 				(length 2.54)
 				(name "VS"
 					(effects
@@ -2230,7 +2219,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 20.32 270)
+				(at 6.35 -29.21 90)
 				(length 2.54)
 				(name "EP"
 					(effects
